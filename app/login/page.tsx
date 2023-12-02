@@ -5,9 +5,13 @@ import { Card } from "../components/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { getCurrentUser } from "@/lib/session";
+import { redirect } from "next/navigation";
 const Login = async () => {
   const res = await getCurrentUser()
-  console.log("The result ; " , res )
+
+  if(res) {
+    redirect('/dashboard')
+  }
   return (
     <div className="flex flex-col items-center justify-start w-screen h-screen overflow-x-hidden bg-gradient-to-tl from-black via-zinc-500/30 to-black">
       <Particles

@@ -27,7 +27,7 @@ export function MainNav({ items, children }: MainNavProps) {
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         {/* <Icons.logo /> */}
          {/* <Image src={Logo} alt="Company Logo" className="h-10 w-10 rounded-full"/> */}
-        <span className="hidden font-bold sm:inline-block">
+        <span className="hidden font-bold sm:inline-block font-display">
           {siteConfig.name}
         </span>
       </Link>

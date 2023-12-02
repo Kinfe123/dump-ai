@@ -32,7 +32,7 @@ export function UserAccountNav({ currentUser }: any) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="secondary" className="relative h-8 w-8 rounded-full">
+        <Button variant="secondary" className="relative h-8 w-8 rounded-ful">
           <Avatar className="h-8 w-8">
             <AvatarImage src={currentUser.image} alt={currentUser.name ?? ""} />
             <AvatarFallback>{currentUser.name !== null ?  currentUser.name[0] : ""}</AvatarFallback>
@@ -40,7 +40,7 @@ export function UserAccountNav({ currentUser }: any) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="end">
-        <DropdownMenuLabel className="font-normal">
+        <DropdownMenuLabel className="font-normal ">
           <div className="flex flex-col space-y-1">
             <p className="text-sm font-medium leading-none">
               {currentUser.name !== null  ?  currentUser.name : " "}

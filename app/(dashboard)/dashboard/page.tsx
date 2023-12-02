@@ -22,7 +22,10 @@ export default async function DashboardPage() {
 
   return (
     <div>
-        this will be the dashaboard for temporary 
+        <h1 className="font-display mx-auto sm:text-6xl md:text-5xl">
+
+            The Dashboard is currently under construction!
+        </h1>
     </div>  
   )
 }

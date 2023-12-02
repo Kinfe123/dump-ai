@@ -21,7 +21,7 @@ export function DashboardNav({ items, user }) {
   }
 
   return (
-    <nav className="grid items-start gap-2 bg-transparent">
+    <nav className="grid items-start gap-2 text-white bg-transparent dark:bg-transparent">
       {items.map((item, index) => {
         const Icon = Icons[item.icon || "arrowRight"];
         return (

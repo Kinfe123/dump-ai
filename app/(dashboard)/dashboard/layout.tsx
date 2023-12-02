@@ -47,11 +47,11 @@ export default async function DashboardLayout({
     <div className="flex min-h-screen flex-col space-y-6  overflow-x-hidden bg-gradient-to-tl from-black via-zinc-500/30 to-black">
 
 
-      <header className="sticky top-0 z-40 border-b bg-background">
-        <div className="container flex h-16 items-center justify-between py-4">
+      <header className="sticky top-0 z-40 border-b bg-transparent text-white/50">
+        <div className="container bg-transparent flex h-16 items-center justify-between py-4">
           <MainNav items={dashboardConfig.mainNav} />
           {/* <Navbar /> */}
-          <div className="overflow-x-hidden sticky">
+          <div className="overflow-x-hidden sticky ">
 
           <UserAccountNav currentUser={user} />
           </div>

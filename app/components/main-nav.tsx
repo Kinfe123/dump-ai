@@ -23,7 +23,7 @@ export function MainNav({ items, children }: MainNavProps) {
 
   return (
     // eslint-disable-next-line tailwindcss/classnames-order
-    <div className="flex gap-6 md:gap-10 bg-transparent ">
+    <div className="flex gap-6 md:gap-10 bg-transparent dark:bg-transparent ">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         {/* <Icons.logo /> */}
          {/* <Image src={Logo} alt="Company Logo" className="h-10 w-10 rounded-full"/> */}

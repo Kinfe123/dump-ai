@@ -30,7 +30,7 @@ export default function Navbar({ currentUser }: any) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ opacity: 1 }}
           transition={{ ease: [0.17, 0.67, 0.83, 0.67], duration: 0.8 }}
-          className="hidden md:flex w-screen z-30  fixed top-0 left-0 justify-between  p-1  bg-transparent border-gray-600  animate-header-slide-down-fade"
+          className=" md:flex w-screen z-30  fixed top-0 left-0 justify-between  p-1  bg-gradient-to-tr from-zinc-400/40 via-transparent to-black border-gray-600  animate-header-slide-down-fade"
         >
           <div className="mx-auto sm:hidden md:flex justify-center items-center">
             <LandingNav />
@@ -42,7 +42,7 @@ export default function Navbar({ currentUser }: any) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ opacity: 1 }}
           transition={{ ease: [0.17, 0.67, 0.83, 0.67], duration: 0.8 }}
-          className="hidden md:flex wpt-1 w-full z-30 backdrop-blur-lg fixed top-0 left-0 justify-between  p-1 border-b dark:border-gray-200 bg-transparent  md:backdrop-blur-md animate-header-slide-down-fade"
+          className="bg-gradient-to-tr from-zinc-400/40 via-transparent to-black hidden md:flex wpt-1 w-full z-30 backdrop-blur-lg fixed top-0 left-0 justify-between  p-1 border-b dark:border-gray-200 bg-transparent  md:backdrop-blur-md animate-header-slide-down-fade"
         >
           <div className="relative bg-transparent md:max-w-ful lg:max-w-7xl mx-auto py-10 w-full px-6 h-[58px] hidden md:flex flex-row justify-between items-center align-center">
             <div className="absolute">
@@ -56,7 +56,7 @@ export default function Navbar({ currentUser }: any) {
                     alt="arez-armada logo"
                     className="w-12 h-12  rounded-full "
                   /> */}
-                  <span className="inline-flex font-heading">Arez Armada</span>
+                  <span className="inline-flex font-heading">DumpAI</span>
                 </Link>
               </div>
             </div>
@@ -66,11 +66,11 @@ export default function Navbar({ currentUser }: any) {
             </div>
          
             <div className="absolute right-0">
-              <div className="flex  ">
+              {/* <div className="flex  ">
                 <Button className="ml-4 bg-gray-800 text-white   transition ease-in-out duration-150 dark:bg-white  dark:text-black w-fit">
                   <Link href="/login">Sign In</Link>
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.nav>

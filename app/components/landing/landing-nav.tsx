@@ -89,7 +89,7 @@ const LandingNav = () => {
                   onMouseOver={() => setCurrentSelection("Home")}
                   onMouseLeave={() => setCurrentSelection(currPath)}
                   className={cn(
-                    "relative px-5 py-3 text-sm font-light text-black/60 transition-[text-shadow,color] duration-200 hover:text-black/80 focus:outline-none dark:text-white/60 dark:hover:text-white/75",
+                    "relative px-5 py-3 text-sm font-light text-white/60 transition-[text-shadow,color] duration-200 hover:text-black/80 focus:outline-none dark:text-white/60 dark:hover:text-white/75",
                     pathname === "/" && "text-white/80 dark:text-white "
                   )}
                 >
@@ -118,11 +118,11 @@ const LandingNav = () => {
                   type="button"
                   className={cn(
                     "relative  px-5 py-3 text-white/60  text-sm font-light transition-[text-shadow,color] duration-200 hover:text-black/80 focus:outline-none dark:text-white dark:hover:text-white/75 ",
-                    pathname === "/changelog" &&
+                    pathname === "/docs" &&
                       " text-black/80  dark:text-white "
                   )}
                 >
-                  Changelog{" "}
+                  Docs{" "}
                   <span className=" inline text-mute-foreground dark:text-white rounded-full pt-5 mb-4 font-heading2">
                 
                   </span>

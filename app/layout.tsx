@@ -57,9 +57,9 @@ const calSans = LocalFont({
 });
 
 const product = LocalFont({
-  src: '../public/fonts/product-font.ttf',
-  variable:'--font-product'
-})
+  src: "../public/fonts/product-font.ttf",
+  variable: "--font-product",
+});
 
 export default function RootLayout({
   children,
@@ -67,7 +67,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable, product.variable].join(" ")}>
+    <html
+      lang="en"
+      className={[inter.variable, calSans.variable, product.variable].join(" ")}
+    >
       <head>
         <Analytics />
       </head>
@@ -78,8 +81,12 @@ export default function RootLayout({
         }`}
       >
         <ThemeProvider>
+          <nav className="my-16 animate-fade-in">
+            <Navbar />
+            <ul className="flex items-center justify-center gap-4"></ul>
+          </nav>
 
-        {children}
+          {children}
         </ThemeProvider>
       </body>
     </html>

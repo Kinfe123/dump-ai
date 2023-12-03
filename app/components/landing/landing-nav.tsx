@@ -111,7 +111,7 @@ const LandingNav = () => {
             </li>
 
             <li className="">
-              <Link href="/Changelog">
+              <Link href="/docs">
                 <button
                   onMouseOver={() => setCurrentSelection("Career")}
                   onMouseLeave={() => setCurrentSelection(currPath)}

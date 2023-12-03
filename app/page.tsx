@@ -14,7 +14,7 @@ const navigation = [
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col items-center justify-start w-screen h-screen overflow-x-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
+      <div className="flex flex-col items-center justify-start w-screen h-screen overflow-x-hidden bg-gradient-to-tl from-black via-zinc-500/10 to-zinc-400/10">
       <nav className="my-16 animate-fade-in overflow-hidden">
         
             <Navbar />

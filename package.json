@@ -1,12 +1,13 @@
 {
-  "name": "chronark.com",
+  "name": "dump.ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "contentlayer build && next build",
     "start": "next start",
-    "fmt": "pnpm rome check . --apply-unsafe && pnpm rome format . --write"
+    "fmt": "pnpm rome check . --apply-unsafe && pnpm rome format . --write",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.27.2",

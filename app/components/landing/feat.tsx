@@ -59,7 +59,7 @@ export const Pricing: React.FC = () => {
             <h2 className="text-base font-display leading-7  px-6 bg-gradient-to-t from-zinc-500/20 via-zinc-500/20 to-zinc-100 bg-clip-text text-transparent  sm:text-6xl md:text-8xl whitespace-nowrap">
               Pricing
             </h2>
-            <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl font-display">
+            <p className="mt-2 text-4xl font-bold tracking-tight bg-gradient-to-tr from-zinc-400/50 via-white to-white/60 bg-clip-text text-transparent sm:text-5xl font-display">
               <ReactWrapBalancer>
                 The right price for any team
               </ReactWrapBalancer>

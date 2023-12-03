@@ -13,7 +13,7 @@ const SocialMedia = () => {
           Proudly Open Source
         </h1>
         <Link
-          href={"https://github.com/Kinfe123/dumpai"}
+          href={"https://github.com/Kinfe123/dump-ai"}
           className="font-display2 rounded-2xl text-2xl px-6 py-3 mx-20 border-2 bg-gradient-to-tr from-zinc-600/10 via-transparent to-transparent  text-zinc-200/70 flex justify-center items-center border-zinc-900/80 "
         >
           <Particles

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "dumpai-vercel.app",
     images: [
       {
-        url: "https://dumpai.vercel.app/test-og",
+        url: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png",
         width: 1920,
         height: 1080,
       },
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "KinFiSH",
+    title: "KiNFiSH",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png",
   },
 };
 const inter = Inter({

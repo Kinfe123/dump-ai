@@ -24,6 +24,16 @@ export const dashboardConfig: DashboardConfig = {
       icon: "billing",
     },
     {
+      title: "Api Key",
+      href: "/dashboard/api-key",
+      icon: "billing",
+    },
+    {
+      title: "Website",
+      href: "/dashboard/website",
+      icon: "billing",
+    },
+    {
       title: "Settings",
       href: "/dashboard/settings",
       icon: "settings",

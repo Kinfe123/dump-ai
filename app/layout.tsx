@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "dumpai.vercel.app",
     description: "Such Random Maker",
     url: "https://dumpai.vercel.app",
-    siteName: "chronark.com",
+    siteName: "dumpai-vercel.app",
     images: [
       {
         url: "https://dumpai.vercel.app/test-og",

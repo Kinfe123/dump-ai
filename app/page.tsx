@@ -15,7 +15,11 @@ export default function Home() {
   return (
     <div>
       <div className="flex flex-col items-center justify-start w-screen h-screen overflow-x-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
-     
+      <nav className="my-16 animate-fade-in overflow-hidden">
+        
+            <Navbar />
+            <ul className="flex items-center justify-center gap-4"></ul>
+          </nav>
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         <Particles
           className="absolute inset-0 -z-10 animate-fade-in"

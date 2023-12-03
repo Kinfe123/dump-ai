@@ -81,10 +81,11 @@ export default function RootLayout({
         }`}
       >
         <ThemeProvider>
-          <nav className="my-16 animate-fade-in">
-            <Navbar />
-            <ul className="flex items-center justify-center gap-4"></ul>
-          </nav>
+          {/* <nav className="my-16 animate-fade-in overflow-hidden"> */}
+            {/* <p>helo world</p> */}
+            {/* <Navbar /> */}
+            {/* <ul className="flex items-center justify-center gap-4"></ul> */}
+          {/* </nav> */}
 
           {children}
         </ThemeProvider>

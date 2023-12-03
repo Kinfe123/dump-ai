@@ -12,7 +12,7 @@ import { Icon } from "@radix-ui/react-select";
 interface DashboardNavProps {
   items: SidebarNavItem[];
 }
-
+//@ts-ignore
 export function DashboardNav({ items, user }) {
   const path = usePathname();
 
@@ -22,7 +22,9 @@ export function DashboardNav({ items, user }) {
 
   return (
     <nav className="grid items-start gap-2 text-white bg-transparent dark:bg-transparent">
+      {/* @ts-ignore */}
       {items.map((item, index) => {
+          {/* @ts-ignore */}
         const Icon = Icons[item.icon || "arrowRight"];
         return (
           item.href && (

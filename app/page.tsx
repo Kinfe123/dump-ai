@@ -26,9 +26,9 @@ export default function Home() {
           quantity={100}
         />
         <div className="text-4xl mt-20 text-transparent">
-          <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline  font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+          <h1 className="z-10 text-4xl text-transparent duration-1000 bg-gradient-to-tr from-zinc-400/70 via-white/80 to-white/10 cursor-default   font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
             Dump
-            <span className="bg-zinc-900 text-transparent bg-clip-text text-edge-outline">
+            <span className= "text-edge-outline   bg-gradient-to-tr from-zinc-900/70 via-zinc-900/50 to-white/10 bg-clip-text text-edge-outline">
               ai
             </span>{" "}
             helps you <br />

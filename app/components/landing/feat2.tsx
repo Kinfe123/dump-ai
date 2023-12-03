@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { Check, Eye, Minus } from "lucide-react";
+import { BarChart2Icon, BarChartHorizontalBig, Check, Cpu, DatabaseZapIcon, Eye, Link2, Minus, Plug2Icon, Waves } from "lucide-react";
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import ReactWrapBalancer from "react-wrap-balancer";
@@ -41,7 +41,7 @@ export const Features: React.FC = () => {
                 >
                   <div className="flex gap-2 justify-start items-center">
                     <span className="inine">
-                      <MessageCircleIcon className="w-6 h-10 mt-[-10px]" />
+                      <Cpu className="w-6 h-10 mt-[-10px]" />
                     </span>
                     <p>AI Powered</p>
                   </div>
@@ -69,7 +69,7 @@ export const Features: React.FC = () => {
                 >
                   <div className="flex gap-2 justify-start items-center">
                     <span className="inine">
-                      <MessageCircleIcon className="w-6 h-10 mt-[-10px]" />
+                      <DatabaseZapIcon className="w-6 h-10 mt-[-10px]" />
                     </span>
                     <p>Training Model</p>
                   </div>
@@ -125,9 +125,9 @@ export const Features: React.FC = () => {
                 >
                   <div className="flex gap-2 justify-start items-center">
                     <span className="inine">
-                      <MessageCircleIcon className="w-6 h-10 mt-[-10px]" />
+                      <Link2 className="w-6 h-10 mt-[-10px]" />
                     </span>
-                    <p>AI Powered</p>
+                    <p>Link your site</p>
                   </div>
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
@@ -153,9 +153,9 @@ export const Features: React.FC = () => {
                 >
                   <div className="flex gap-2 justify-start items-center">
                     <span className="inine">
-                      <MessageCircleIcon className="w-6 h-10 mt-[-10px]" />
+                      <Plug2Icon className="w-6 h-10 mt-[-10px]" />
                     </span>
-                    <p>Training Model</p>
+                    <p>Easy Integrations</p>
                   </div>
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
@@ -181,9 +181,9 @@ export const Features: React.FC = () => {
                 >
                   <div className="flex gap-2 justify-start items-center">
                     <span className="inine">
-                      <MessageCircleIcon className="w-6 h-10 mt-[-10px]" />
+                      <BarChart2Icon className="w-6 h-10 mt-[-10px]" />
                     </span>
-                    <p>Chat with AI</p>
+                    <p>Concise Analytics</p>
                   </div>
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">

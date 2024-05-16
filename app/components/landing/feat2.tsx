@@ -12,7 +12,7 @@ export const Features: React.FC = () => {
       <div className="overflow-hidden bg-transparent f">
         <div className="px-6 pt-24 mx-auto text-center max-w-7xl pb-96 sm:pt-32 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-base font-display leading-7  px-6 bg-gradient-to-t from-zinc-500/20 via-zinc-500/20 to-zinc-100 bg-clip-text text-transparent  sm:text-6xl md:text-8xl whitespace-nowrap">
+            <h2 className="text-base font-display leading-7  px-6 bg-gradient-to-t from-zinc-200/20 via-zinc-200/20 to-zinc-100 bg-clip-text text-transparent  sm:text-6xl md:text-8xl whitespace-nowrap">
               Features
             </h2>
             <p className="mt-2 text-4xl font-bold tracking-tight bg-gradient-to-tr from-zinc-400/50 via-white to-white/60 bg-clip-text text-transparent sm:text-5xl font-display">

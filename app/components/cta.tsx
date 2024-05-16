@@ -9,9 +9,9 @@ const CTA = () => {
       <div className="text-4xl text-transparent duration-1000 bg-white   font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text dark:text-white font-heading relative before:absolute before:inset-0 before:bg-[radial-gradient(ellipse_50%_50%_at_center,rgba(var(--feature-color),0.1),transparent)]">
         <div>
           <h2 className="text-gradient mb-11 translate-y-[40%] text-center text-4xl  md:text-5xl lg:text-8xl [transition:transform_1000ms_cubic-bezier(0.3,1.17,0.55,0.99)0s] [.is-visible_&]:translate-y-0">
-            <span className="text-edge-outline">Accelerate your</span>{" "}
-            <span className=" ml-1 bg-gradient-to-t  stroke-transparent from-zinc-700/20 via-zinc-500/20 to-zinc-100 bg-clip-text text-transparent">
-              grows{" "}
+            <span className="text-edge-outline">Accelerate your grows</span>{" "}
+            <span className=" ml-1 bg-gradient-to-t  stroke-transparent from-zinc-700/20 via-zinc-200/20 to-zinc-100 bg-clip-text text-transparent">
+              {" "}
             </span>{" "}
             <br />
             <span className="bg-gradient-to-tr from-zinc-400/50 via-white to-white/60 bg-clip-text text-transparent">
